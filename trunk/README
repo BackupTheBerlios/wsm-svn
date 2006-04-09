@@ -1,0 +1,15 @@
+$Id: README,v 1.3 2005/10/09 18:10:39 aurelian Exp $
+
+WSM: WINDOWS SERVICE MANAGEMENT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+author: Oancea Aurelian <aurelian_at_locknet_dot_ro>
+
+This is a standalone php extension that works only on Windows (NT:NT,2k,XP,2k3).
+This extension was builded and tested on windows XP+sp2 so, any feedback will be apreciated!
+
+WSM allows php developers to control windows services from thir php scripts.
+
+More informations about Installing and the API provided by this extension can be found
+on WSM project page: http://wsm.berlios.de
+
