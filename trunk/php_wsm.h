@@ -38,7 +38,7 @@ extern zend_module_entry wsm_module_entry;
 #include "TSRM.h"
 #endif
 
-#define PHP_WSM_VERSION "0.7.16"
+#define PHP_WSM_VERSION "0.7.17"
 #define PHP_WSM_EXTNAME "wsm"
 
 PHP_MINIT_FUNCTION(wsm);
