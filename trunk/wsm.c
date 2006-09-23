@@ -507,7 +507,7 @@ PHP_MINIT_FUNCTION(wsm)
     /* class WSM_Exception extends Exception */
     INIT_CLASS_ENTRY(ce, "WSM_Exception", wsm_exception_methods);
     wsm_exception_class_entry = zend_register_internal_class_ex(
-        &ce, zend_exception_get_default(), NULL TSRMLS_CC);
+        &ce, zend_exception_get_default(TSRMLS_C), NULL TSRMLS_CC);
 
     /* class WSM_RuntimeException extends WSM_Exception */
     INIT_CLASS_ENTRY(ce, "WSM_RuntimeException", wsm_exception_methods);
@@ -560,4 +560,3 @@ PHP_MINFO_FUNCTION(wsm)
  * vim600: noet sw=4 ts=4 fdm=marker
  * vim<600: noet sw=4 ts=4
  */
-
